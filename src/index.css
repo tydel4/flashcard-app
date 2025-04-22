@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .perspective {
+    perspective: 1000px;
+  }
+  .transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* Safari */
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+
+body {
+  @apply bg-gray-100 text-gray-900 transition-colors duration-300 font-sans antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
