@@ -21,7 +21,7 @@ A simple flashcard application built with React and Tailwind CSS. Allows users t
 
 1.  Clone the repository:
     ```bash
-    git clone <your-repository-url>
+    git clone <https://github.com/tydel4/flashcard-app>
     cd flashcard-app
     ```
 2.  Install dependencies:
